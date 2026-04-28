@@ -6,9 +6,9 @@ A Python CLI application that uses **OCR** (via Ollama) and **Machine Learning**
 
 The system takes scanned weekly menu sheets (images), extracts structured data using AI-powered OCR, and trains an ML model to predict future lunch attendance across four categories:
 
-- **Erw** – Adults  
-- **Ki** – Kids  
-- **MA** – Mitarbeiter (Staff)  
+- **Erw** – Adults
+- **Ki** – Kids
+- **MA** – Mitarbeiter (Staff)
 - **MA-Ki** – Staff Kids
 
 The prediction aggregates per weekday (Mon–Fri) for a target month.
@@ -94,14 +94,14 @@ Output: a Rich table with predicted attendance per weekday category.
 
 ## CLI Commands Reference
 
-| Command | Description |
-|---------|-------------|
-| `app parse <image>` | Parse a single scanned menu image into structured JSON. |
-| `app parse-batch` | Parse all images in a directory into JSON. |
-| `app train` | Train the ML model on historical JSON data. |
-| `app predict <YYYY-MM>` | Predict attendance for a given month (e.g. `2026-05`). |
-| `app evaluate` | Evaluate the saved model on held-out test data. |
-| `app status` | Show system status: data weeks available, model readiness. |
+| Command                 | Description                                                |
+| ----------------------- | ---------------------------------------------------------- |
+| `app parse <image>`     | Parse a single scanned menu image into structured JSON.    |
+| `app parse-batch`       | Parse all images in a directory into JSON.                 |
+| `app train`             | Train the ML model on historical JSON data.                |
+| `app predict <YYYY-MM>` | Predict attendance for a given month (e.g. `2026-05`).     |
+| `app evaluate`          | Evaluate the saved model on held-out test data.            |
+| `app status`            | Show system status: data weeks available, model readiness. |
 
 ### Example Usage
 
@@ -166,16 +166,16 @@ app (CLI + Config + DI Container)
 
 Edit `shared/constants.py` to customize:
 
-| Setting | Default | Description |
-|---------|---------|-------------|
-| `OLLAMA_HOST` | `http://localhost:11434` | Ollama API endpoint |
-| `OLLAMA_PRIMARY_MODEL` | `deepseek-ocr:3b` | Primary OCR model |
-| `OLLAMA_FALLBACK_MODEL` | `qwen3-vl:235b-cloud` | Fallback OCR model |
-| `DATA_DIR` | `data/` | Root data directory |
-| `IMAGES_DIR` | `data/images/` | Input images |
-| `JSON_DIR` | `data/json/` | Parsed JSON output |
-| `MODELS_DIR` | `models/` | Serialized ML models |
-| `CATEGORY_LABELS` | `["Erw", "Ki", "MA", "MA-Ki"]` | Attendance categories |
+| Setting                 | Default                        | Description           |
+| ----------------------- | ------------------------------ | --------------------- |
+| `OLLAMA_HOST`           | `http://localhost:11434`       | Ollama API endpoint   |
+| `OLLAMA_PRIMARY_MODEL`  | `deepseek-ocr:3b`              | Primary OCR model     |
+| `OLLAMA_FALLBACK_MODEL` | `qwen3-vl:235b-cloud`          | Fallback OCR model    |
+| `DATA_DIR`              | `data/`                        | Root data directory   |
+| `IMAGES_DIR`            | `data/images/`                 | Input images          |
+| `JSON_DIR`              | `data/json/`                   | Parsed JSON output    |
+| `MODELS_DIR`            | `models/`                      | Serialized ML models  |
+| `CATEGORY_LABELS`       | `["Erw", "Ki", "MA", "MA-Ki"]` | Attendance categories |
 
 > **Note:** If `deepseek-ocr:3b` returns only layout tags (`<|ref|>`, `<|det|>`) without text, the system automatically falls back to `qwen3-vl`.
 
@@ -225,16 +225,16 @@ uv run ruff format .
 
 ## Tech Stack
 
-| Component | Tool |
-|-----------|------|
-| CLI Framework | Typer + Rich |
-| Data Validation | Pydantic 2.x |
-| OCR / AI | Ollama (`deepseek-ocr:3b`, `qwen3-vl`) |
-| Data Processing | Pandas, NumPy |
-| ML Model | scikit-learn (`MultiOutputRegressor` + `RandomForestRegressor`) |
-| Serialization | joblib |
-| Holidays | `holidays` (Switzerland, Bern) |
-| Testing | pytest |
+| Component       | Tool                                                            |
+| --------------- | --------------------------------------------------------------- |
+| CLI Framework   | Typer + Rich                                                    |
+| Data Validation | Pydantic 2.x                                                    |
+| OCR / AI        | Ollama (`deepseek-ocr:3b`, `qwen3-vl`)                          |
+| Data Processing | Pandas, NumPy                                                   |
+| ML Model        | scikit-learn (`MultiOutputRegressor` + `RandomForestRegressor`) |
+| Serialization   | joblib                                                          |
+| Holidays        | `holidays` (Switzerland, Bern)                                  |
+| Testing         | pytest                                                          |
 
 ---
 

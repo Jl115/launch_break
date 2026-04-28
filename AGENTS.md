@@ -4,7 +4,7 @@
 - **Language**: Python 3.12+
 - **Package Manager**: `uv` (managed via `pyproject.toml`)
 - **Architecture**: Feature-Sliced Design (FSD)
-- **Dependencies**: Typer, Rich, Pydantic, Requests, Pandas, NumPy, scikit-learn, joblib, holidays
+- **Dependencies**: Typer, Rich, Pydantic, Requests, Pandas, NumPy, scikit-learn, joblib, holidays, Textual, textual-plotext
 
 ## Architecture Rules
 1. **Strict dependency hierarchy**: `app` -> `features` -> `entities` -> `shared`

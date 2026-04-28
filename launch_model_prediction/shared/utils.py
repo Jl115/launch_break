@@ -1,7 +1,7 @@
 """Shared utilities."""
 import re
 
-__all__ = ["clean_ocr_output", "parse_german_date_range"]
+__all__ = ["clean_ocr_output"]
 
 _ANSI_ESCAPE = re.compile(r"(?:\x1b\[[0-9;]*[a-zA-Z]|\x0f|\x1b\]\d+;.*?\x07|\x1b\[\?\d+[hl])")
 _GROUNDING_TAG = re.compile(r"<\|ref\|>.*?<\|/ref\|>", re.S)

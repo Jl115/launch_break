@@ -6,7 +6,7 @@ from pathlib import Path
 from entities import MenuSheet
 from shared import JSON_DIR, get_logger
 
-__all__ = ["MenuRepository"]
+__all__ = ["Repository", "MenuRepository"]
 
 logger = get_logger(__name__)
 

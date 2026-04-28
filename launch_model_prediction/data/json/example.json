@@ -1,0 +1,57 @@
+{
+  "header": {
+    "facility": "Familien-",
+    "document_type": "Menu - Anmeldeliste",
+    "date": "2.3.2020"
+  },
+  "schedule": {
+    "Montag": {
+      "status": "geschlossen",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": null
+    },
+    "Dienstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "MA": 9,
+        "Ki": 13
+      }
+    },
+    "Mittwoch": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "MA": 6,
+        "Ki": 3
+      }
+    },
+    "Donnerstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "MA": 5,
+        "Ki": 13
+      }
+    },
+    "Freitag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "MA": 6,
+        "Ki": 11
+      }
+    }
+  },
+  "weekly_totals": {
+    "Erw": 0,
+    "Ki": 40,
+    "MA": 26,
+    "MA-Ki": 0
+  }
+}

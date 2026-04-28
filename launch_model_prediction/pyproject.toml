@@ -6,6 +6,8 @@ requires-python = ">=3.12"
 dependencies = [
     "typer>=0.15.0",
     "rich>=13.0.0",
+    "textual>=0.85.0",
+    "textual-plotext>=0.2.0",
     "pydantic>=2.0",
     "pydantic-settings>=2.0",
     "requests>=2.31.0",
@@ -37,3 +39,9 @@ select = ["E", "F", "I", "N", "W", "UP"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.pyright]
+include = ["app", "entities", "features", "shared"]
+extraPaths = ["."]
+venvPath = "." # Change this to your venv's parent directory if using a global env manager like hatch/conda
+venv = ".venv" # Change this to your exact virtual environment folder name

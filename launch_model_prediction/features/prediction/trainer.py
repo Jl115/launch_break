@@ -9,7 +9,7 @@ from sklearn.model_selection import TimeSeriesSplit
 from features.prediction.model import LunchPredictor, SklearnLunchPredictor
 from shared import InsufficientDataError, ModelError, get_logger
 
-__all__ = ["ModelTrainer"] 
+__all__ = ["Trainer", "ModelTrainer"]
 
 logger = get_logger(__name__)
 
