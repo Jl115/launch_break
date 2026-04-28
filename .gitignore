@@ -1,0 +1,77 @@
+# ==========================================
+# Python / UV / Virtual Environment
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================================
+# Distribution / packaging
+# ==========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Testing / coverage
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ==========================================
+# IDE & System Trash
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log
+.history/
+
+# ==========================================
+# uv lock file (optional)
+# ==========================================
+# Uncomment if you don't want to commit uv.lock
+# uv.lock
+
+# ==========================================
+# Project Data & Models (KEEP STRUCTURE, IGNORE CONTENTS)
+# ==========================================
+# Folders are tracked via .gitkeep, but all actual content is ignored
+data/*
+!data/.gitkeep
+data/images/*
+!data/images/.gitkeep
+data/json/*
+!data/json/.gitkeep
+
+models/*
+!models/.gitkeep
+
+# ==========================================
+# Jupyter / IPython
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==========================================
+# Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets.yaml
