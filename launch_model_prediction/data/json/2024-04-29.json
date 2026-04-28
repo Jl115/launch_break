@@ -1,0 +1,70 @@
+{
+  "header": {
+    "facility": "Familienzentrum Bern KITAS MURIFELD",
+    "document_type": "Menu - Anmeldeliste",
+    "date": "29.4.2024"
+  },
+  "schedule": {
+    "Montag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 9,
+        "Ki": 5,
+        "MA": 11,
+        "MA-Ki": 1
+      }
+    },
+    "Dienstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 12,
+        "Ki": 3,
+        "MA": 11,
+        "MA-Ki": 0
+      }
+    },
+    "Mittwoch": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 9,
+        "Ki": 20,
+        "MA": 11,
+        "MA-Ki": 4
+      }
+    },
+    "Donnerstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 8,
+        "Ki": 10,
+        "MA": 5,
+        "MA-Ki": 5
+      }
+    },
+    "Freitag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 14,
+        "Ki": 12,
+        "MA": 5,
+        "MA-Ki": 2
+      }
+    }
+  },
+  "weekly_totals": {
+    "Erw": 52,
+    "Ki": 50,
+    "MA": 43,
+    "MA-Ki": 12
+  }
+}
