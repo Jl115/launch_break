@@ -1,0 +1,65 @@
+{
+  "header": {
+    "facility": "Familien-zentrum Bern",
+    "document_type": "Menu - Anmeldeliste",
+    "date": "02.09. - 06.09.2024"
+  },
+  "schedule": {
+    "Montag": {
+      "status": "geschlossen",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": null
+    },
+    "Dienstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 3,
+        "Ki": 11,
+        "MA": 8,
+        "MA-Ki": 2
+      }
+    },
+    "Mittwoch": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 5,
+        "Ki": 10,
+        "MA": 4,
+        "MA-Ki": 0
+      }
+    },
+    "Donnerstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 3,
+        "Ki": 6,
+        "MA": 3,
+        "MA-Ki": 0
+      }
+    },
+    "Freitag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 5,
+        "Ki": 12,
+        "MA": 5,
+        "MA-Ki": 4
+      }
+    }
+  },
+  "weekly_totals": {
+    "Erw": 16,
+    "Ki": 39,
+    "MA": 20,
+    "MA-Ki": 6
+  }
+}

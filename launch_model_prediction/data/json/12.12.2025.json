@@ -1,0 +1,57 @@
+{
+  "header": {
+    "facility": "Familien-",
+    "document_type": "Menu - Anmeldeliste",
+    "date": "8.12. - 12.12.25"
+  },
+  "schedule": {
+    "Montag": {
+      "status": "geschlossen",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": null
+    },
+    "Dienstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "MA": 6,
+        "Ki": 3
+      }
+    },
+    "Mittwoch": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "MA": 7,
+        "Ki": 8
+      }
+    },
+    "Donnerstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "MA": 4,
+        "Ki": 9
+      }
+    },
+    "Freitag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "MA": 5,
+        "Ki": 8
+      }
+    }
+  },
+  "weekly_totals": {
+    "Erw": 16,
+    "Ki": 28,
+    "MA": 22,
+    "MA-Ki": 11
+  }
+}

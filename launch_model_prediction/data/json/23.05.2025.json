@@ -1,0 +1,65 @@
+{
+  "header": {
+    "facility": "Familien-zentrum Bern",
+    "document_type": "Menu - Anmeldeliste",
+    "date": "19.5. – 23.5.2025"
+  },
+  "schedule": {
+    "Montag": {
+      "status": "geschlossen",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": null
+    },
+    "Dienstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 6,
+        "Ki": 14,
+        "MA": 7,
+        "MA-Ki": 4
+      }
+    },
+    "Mittwoch": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 11,
+        "Ki": 17,
+        "MA": 8,
+        "MA-Ki": 4
+      }
+    },
+    "Donnerstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 7,
+        "Ki": 14,
+        "MA": 5,
+        "MA-Ki": 0
+      }
+    },
+    "Freitag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 7,
+        "Ki": 16,
+        "MA": 6,
+        "MA-Ki": 7
+      }
+    }
+  },
+  "weekly_totals": {
+    "Erw": 84,
+    "Ki": 127,
+    "MA": 74,
+    "MA-Ki": 22
+  }
+}

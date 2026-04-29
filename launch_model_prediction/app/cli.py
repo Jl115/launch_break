@@ -144,7 +144,7 @@ def train_command(
 
 @app.command("predict")
 def predict_command(
-    month: str = typer.Argument(help="Target month as YYYY-MM (e.g. 2026-04)"),
+    month: str = typer.Argument(help="Target month as MM.YYYY (e.g. 04.2026)"),
     model_path: Path = typer.Option(MODELS_DIR / "predictor.jobml", help="Trained model path"),
 ) -> None:
     """Predict attendance for each weekday category in a given month."""

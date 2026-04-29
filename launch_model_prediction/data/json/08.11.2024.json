@@ -1,0 +1,65 @@
+{
+  "header": {
+    "facility": "Familien-zentrum Bern KITAS MURI FELD",
+    "document_type": "Menu - Anmeldeliste",
+    "date": "4.11. - 8.11.24"
+  },
+  "schedule": {
+    "Montag": {
+      "status": "geschlossen",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": null
+    },
+    "Dienstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 4,
+        "Ki": 9,
+        "MA": 7,
+        "MA-Ki": 1
+      }
+    },
+    "Mittwoch": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 8,
+        "Ki": 11,
+        "MA": 7,
+        "MA-Ki": 1
+      }
+    },
+    "Donnerstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 9,
+        "Ki": 13,
+        "MA": 4,
+        "MA-Ki": 3
+      }
+    },
+    "Freitag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 3,
+        "Ki": 8,
+        "MA": 5,
+        "MA-Ki": 4
+      }
+    }
+  },
+  "weekly_totals": {
+    "Erw": 44,
+    "Ki": 46,
+    "MA": 24,
+    "MA-Ki": 11
+  }
+}

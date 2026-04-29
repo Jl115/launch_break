@@ -162,9 +162,9 @@ def train(
 
 def predict(month_str: str, model_path: Path = MODELS_DIR / "predictor.jobml") -> ActionResult:
     try:
-        target = datetime.strptime(month_str, "%Y-%m")
+        target = datetime.strptime(month_str, "%m.%Y")
     except ValueError:
-        return ActionResult(False, "Invalid month format. Use YYYY-MM.")
+        return ActionResult(False, "Invalid month format. Use MM.YYYY (e.g. 04.2026).")
 
     if not model_path.exists():
         return ActionResult(False, f"Model not found at {model_path}. Run train first.")

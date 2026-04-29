@@ -1,0 +1,65 @@
+{
+  "header": {
+    "facility": "Familien-",
+    "document_type": "Menu - Anmeldeliste",
+    "date": "02. - 07.06.2024"
+  },
+  "schedule": {
+    "Montag": {
+      "status": "geschlossen",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": null
+    },
+    "Dienstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 3,
+        "Ki": 11,
+        "MA": 8,
+        "MA-Ki": 2
+      }
+    },
+    "Mittwoch": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 5,
+        "Ki": 10,
+        "MA": 4,
+        "MA-Ki": 0
+      }
+    },
+    "Donnerstag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 3,
+        "Ki": 6,
+        "MA": 3,
+        "MA-Ki": 0
+      }
+    },
+    "Freitag": {
+      "status": "open",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 5,
+        "Ki": 12,
+        "MA": 5,
+        "MA-Ki": 4
+      }
+    }
+  },
+  "weekly_totals": {
+    "Erw": 32,
+    "Ki": 47,
+    "MA": 12,
+    "MA-Ki": 16
+  }
+}

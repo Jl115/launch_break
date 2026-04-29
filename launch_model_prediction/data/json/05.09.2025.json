@@ -1,0 +1,65 @@
+{
+  "header": {
+    "facility": "Familien-zentrum Bern",
+    "document_type": "Menu - Anmeldeliste",
+    "date": "01.09. - 05.09.2025"
+  },
+  "schedule": {
+    "Montag": {
+      "status": "geschlossen",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": null
+    },
+    "Dienstag": {
+      "status": "open",
+      "menu": "Salat, Houska's, gemüse, Dessert",
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 6,
+        "Ki": 9,
+        "MA": 5,
+        "MA-Ki": 0
+      }
+    },
+    "Mittwoch": {
+      "status": "open",
+      "menu": "Pouletgulasch mit Nudeln, gemüse, Dessert",
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 4,
+        "Ki": 12,
+        "MA": 7,
+        "MA-Ki": 1
+      }
+    },
+    "Donnerstag": {
+      "status": "open",
+      "menu": "Lauch-Rahm, gegr. gemüse, Dessert",
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 1,
+        "Ki": 4,
+        "MA": 4,
+        "MA-Ki": 3
+      }
+    },
+    "Freitag": {
+      "status": "open",
+      "menu": "Risotto mit Pilzen, gemüse, Dessert",
+      "signups": null,
+      "summary_bottom": {
+        "Erw": 7,
+        "Ki": 8,
+        "MA": 6,
+        "MA-Ki": 4
+      }
+    }
+  },
+  "weekly_totals": {
+    "Erw": 18,
+    "Ki": 33,
+    "MA": 22,
+    "MA-Ki": 8
+  }
+}

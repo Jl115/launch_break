@@ -447,8 +447,8 @@ class PredictScreen(_BackableScreen):
         yield Header()
         with Vertical(id="screen-container"):
             yield Static("[bold]Predict Month[/bold]")
-            yield Label("Month (YYYY-MM):")
-            yield Input(placeholder="2026-04", id="input-month")
+            yield Label("Month (MM.YYYY):")
+            yield Input(placeholder="04.2026", id="input-month")
             with Horizontal():
                 yield Button("Predict", id="btn-run", variant="primary")
                 yield Button("Back", id="btn-back")

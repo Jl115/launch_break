@@ -1,0 +1,86 @@
+{
+  "header": {
+    "facility": "Familien-",
+    "document_type": "Menu - Anmeldeliste",
+    "date": "19.2. – 23.2.2024"
+  },
+  "schedule": {
+    "Montag": {
+      "status": "geschlossen",
+      "menu": null,
+      "signups": null,
+      "summary_bottom": null
+    },
+    "Dienstag": {
+      "status": "open",
+      "menu": [
+        "Salat",
+        "Kürbis-Büfli",
+        "gemüse",
+        "Dessert 3"
+      ],
+      "signups": null,
+      "summary_bottom": {
+        "ERW" : 5,
+        "Ki": 9,
+        "MA": 7, 
+        "MA-KI": 2
+      }
+    },
+    "Mittwoch": {
+      "status": "open",
+      "menu": [
+        "Salat",
+        "Chili con Carne",
+        "Reis",
+        "gemüse",
+        "Dessert 3"
+      ],
+      "signups": null,
+      "summary_bottom": {
+        "ERW" : 12,
+        "Ki": 21,
+        "MA": 8, 
+        "MA-KI": 1
+      }
+    },
+    "Donnerstag": {
+      "status": "open",
+      "menu": [
+        "Salat",
+        "Pasta",
+        "gemüse",
+        "Dessert 3"
+      ],
+      "signups": null,
+      "summary_bottom": {
+        "ERW" : 1,
+        "Ki": 4,
+        "MA": 5, 
+        "MA-KI": 1
+      }
+    },
+    "Freitag": {
+      "status": "open",
+      "menu": [
+        "Salat",
+        "Fischgeschn. mit Süsskartoffeln",
+        "gemüse",
+        "Dessert 2"
+      ],
+      "signups": null,
+      "summary_bottom": {
+        "ERW" : 1,
+        "Ki": 5,
+        "MA": 7, 
+        "MA-KI": 1
+      }
+    }
+  },
+  "weekly_totals": {
+    "Erw": 37,
+    "Ki": 57,
+    "MA": 16,
+    "MA-Ki": 7
+  }
+}
